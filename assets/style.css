@@ -7,10 +7,12 @@ h1 {
 html {
   background-color: #2196F3;
 }
+
 :root {
   /* declare a variable with `--` syntax */
-  --ButtonColor: #f44336; }
- 
+  --ButtonColor: #f44336;
+}
+
 
 /* Style the links inside the sidenav */
 #myMenu a {
@@ -26,7 +28,7 @@ html {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
   border-radius: 0 5px 5px 0;
- 
+
 }
 
 #myMenu a:hover {
@@ -55,4 +57,34 @@ html {
 #Email {
   top: 200px;
   background-color: var(--ButtonColor)
+}
+
+.profilePic {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+  position: absolute;
+  top: 500px;
+}
+
+.banner {
+  position: absolute;
+  top: 200px;
+  right: 360px;
+}
+
+.bio {
+  display: inline-block;
+  position: absolute;
+  bottom: 260px;
+  left: 280px;
+  flex-wrap: wrap;
+  line-height: 1.8;
+}
+
+.endTag {
+position: absolute;
+right: 860px;
+top: 900px;
 }
