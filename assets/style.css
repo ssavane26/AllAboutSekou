@@ -134,3 +134,15 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 margin: 20px;
 font-size: 60px;
 }
+
+.pList {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media screen and (max-width:480px) {
+.banner, .profilePic, .projects {
+object-fit: contain;
+width: 100%;
+height: auto;
+}
+ }  
