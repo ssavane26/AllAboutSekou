@@ -47,9 +47,10 @@ main {
 
 /* The about link: 20px from the top with a green background */
 #projects {
- top: 20px;
- background-color: var(--ButtonColor);
+  top: 20px;
+  background-color: var(--ButtonColor);
 }
+
 #about {
   top: 20px;
   background-color: var(--ButtonColor);
@@ -103,24 +104,23 @@ main {
   line-height: 1.8;
   background-color: white;
   border: 5px solid black;
-  max-width:  700px
-
-
+  max-width: 700px
 }
 
 .endTag {
   position: relative;
-  margin:auto;
+  margin: auto;
   bottom: 200px;
   left: 600px;
 }
 
 .projects {
-display: inline-block;
-position: relative;
-bottom: 390px;
-left: 130px;
+  display: inline-block;
+  position: relative;
+  bottom: 390px;
+  left: 130px;
 }
+
 .picSize {
   display: flex;
   float: left;
@@ -130,9 +130,9 @@ left: 130px;
 }
 
 figure {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-margin: 20px;
-font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 20px;
+  font-size: 60px;
 }
 
 .pList {
@@ -140,9 +140,12 @@ font-size: 60px;
 }
 
 @media screen and (max-width:480px) {
-.banner, .profilePic, .projects {
-object-fit: contain;
-width: 100%;
-height: auto;
+
+  .banner,
+  .profilePic,
+  .projects {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+  }
 }
- }  
