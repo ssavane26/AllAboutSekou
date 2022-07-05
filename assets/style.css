@@ -1,11 +1,15 @@
-h1 {
+.siteHead {
   text-align: center;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 75px;
+  flex-wrap: wrap;
+  display: inline-block;
+  margin-left: 70px;
 }
 
 html {
-  background-color: #2196F3;
+  background-color: #90b5d3;
+  max-width: 1000px;
 }
 
 :root {
@@ -13,6 +17,11 @@ html {
   --ButtonColor: #f44336;
 }
 
+main {
+  /* Turns this element into a flexbox */
+  display: block;
+
+}
 
 /* Style the links inside the sidenav */
 #myMenu a {
@@ -37,6 +46,10 @@ html {
 }
 
 /* The about link: 20px from the top with a green background */
+#projects {
+ top: 20px;
+ background-color: var(--ButtonColor);
+}
 #about {
   top: 20px;
   background-color: var(--ButtonColor);
@@ -60,31 +73,64 @@ html {
 }
 
 .profilePic {
+  display: flex;
+  margin: 40px auto;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   width: 250px;
-  position: absolute;
-  top: 500px;
+  position: relative;
+  right: 180px;
+  /* position: absolute; */
+  /* top: -10px; */
+  bottom: 90px;
 }
 
 .banner {
-  position: absolute;
-  top: 200px;
-  right: 360px;
+  display: in;
+  position: relative;
+  bottom: 100px;
+  left: 120px;
+  border: 2px solid #bfbfbf;
 }
 
 .bio {
-  display: inline-block;
-  position: absolute;
-  bottom: 260px;
-  left: 280px;
-  flex-wrap: wrap;
+  display: block;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  bottom: 750px;
+  left: 480px;
   line-height: 1.8;
+  background-color: white;
+  border: 5px solid black;
+  max-width:  700px
+
+
 }
 
 .endTag {
-position: absolute;
-right: 860px;
-top: 900px;
+  position: relative;
+  margin:auto;
+  bottom: 200px;
+  left: 600px;
+}
+
+.projects {
+display: inline-block;
+position: relative;
+bottom: 390px;
+left: 130px;
+}
+.picSize {
+  display: flex;
+  float: left;
+  height: 300px;
+  width: auto;
+  margin: 0 20px 70px 0;
+}
+
+figure {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: 20px;
+font-size: 60px;
 }
